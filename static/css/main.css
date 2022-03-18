@@ -1254,7 +1254,7 @@
     top: 1px; }
 
 .btn-primary {
-  background-color: #378C3F;
+  background-color: #ee6868,
   color: #FFFFFF; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:focus, .btn-primary.active:hover,
   .show > .btn-primary.dropdown-toggle,
@@ -1511,8 +1511,9 @@
   filter: alpha(opacity=50); }
 
 .btn-round {
-  border-width: 1px;
-  border-radius: 30px !important;
+  border-width: .5px;
+  border-radius:30px !important;
+  color: #eb4a4a;
   padding: 11px 23px; }
   .btn-round.btn-simple {
     padding: 10px 22px; }
@@ -1565,6 +1566,7 @@ fieldset[disabled]
 .btn-lg {
   font-size: 1em;
   border-radius: 0.25rem;
+  color: 
   padding: 15px 48px; }
   .btn-lg.btn-simple {
     padding: 14px 47px; }
@@ -2598,7 +2600,7 @@ body {
   background-color: #888 !important; }
 
 .bg-primary {
-  background-color: #378C3F !important; }
+  background-color: #eb4a4a !important; }
 
 .bg-info {
   background-color: #2CA8FF !important; }
@@ -5123,7 +5125,7 @@ Created using IcoMoon - icomoon.io
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6));
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), #F55252);
   /* Standard syntax */ }
   .page-header .btn {
     width: 140px; }
